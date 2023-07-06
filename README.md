@@ -1,12 +1,25 @@
 # LiveBarn Front-end Software Engineer Interview Code Challenge #
 
-Welcome to LiveBarn Front-end Software Engineer Interview Code Challenge. 
+Steps to run locally: 
 
-Please clone this repository and read the instructions [here](https://hackmd.io/@gd_dVYF0STqPqMLWkxnd6A/Byrxur5At).
+1. Clone repo with: 
+```
+git clone https://github.com/Clevins/color-alchemy.git
+```
 
-Please upload your code to your online repository and provide us with the link.
+2. Move into the project folder with
+```
+cd color-alchemy
+```
 
-## Evaluation ##
-1. Code completion and correctness
-2. Code brevity and clarity
-3. Code efficiency and readability
+3. Install Npm packages with:
+
+```
+npm run init
+```
+
+4. Start client and api server
+
+```
+npm run start
+```
