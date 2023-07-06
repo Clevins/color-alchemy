@@ -1,0 +1,7 @@
+.grids {
+  @apply grid grid-rows-6  items-center;
+}
+
+.row {
+  @apply flex flex-row justify-center;
+}

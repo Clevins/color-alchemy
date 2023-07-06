@@ -1,0 +1,14 @@
+{
+  "name": "livebarntest",
+  "version": "1.0.0",
+  "description": "Welcome to LiveBarn Front-end Software Engineer Interview Code Challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " npm run start-server & npm run start-client",
+    "start-client": "npm start --prefix ./color-alchemy-client",
+    "start-server": "npm start --prefix ./color-alchemy-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

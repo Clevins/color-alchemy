@@ -1,0 +1,17 @@
+.model {
+  @apply w-full justify-center flex fixed inset-0 z-10 bg-black bg-opacity-50;
+}
+
+.model__body {
+  @apply bg-white w-96 shadow-lg rounded h-52 mt-40;
+}
+
+.model__control {
+}
+
+.model--hidden {
+  @apply hidden;
+}
+.model__btn {
+  @apply m-3  px-3 text-lg h-8 bg-transparent border-2 border-blue-600 rounded-md shadow-lg;
+}
